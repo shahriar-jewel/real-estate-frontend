@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;600;700;800&display=swap");
+@import url("https://use.typekit.net/rei1xki.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-muli text-body text-sm sm:text-base font-normal overflow-x-hidden;
+    }
+}
+
+@layer components {
+    .transition_custom {
+        @apply transition-all ease-linear duration-300;
+    }
+}

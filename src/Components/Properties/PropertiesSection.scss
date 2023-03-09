@@ -1,0 +1,12 @@
+.swiper-pagination {
+    bottom: 0 !important;
+    @apply relative mt-6 flex justify-center;
+
+    & .swiper-pagination-bullet {
+        @apply bg-black w-2 h-2;
+
+        &.swiper-pagination-bullet-active {
+            @apply bg-primary;
+        }
+    }
+}
